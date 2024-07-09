@@ -42,7 +42,6 @@ dependencies {
     androidTestImplementation(libs.espresso.core)
 
     // work managet
-    val work_version = "2.9.0"
-    implementation("androidx.work:work-runtime:$work_version")
+    implementation("androidx.work:work-runtime:2.9.0")
 
 }
